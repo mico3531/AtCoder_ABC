@@ -1,0 +1,5 @@
+N = int(input())
+A = set(map(int, input().split()))
+B = sorted(list(A))
+print(len(B))
+print(*B)
